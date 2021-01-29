@@ -12,7 +12,7 @@ a{
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 
-p,span,h1,h2,h3,h4,h5,h6,input,a{
+p,span,h1,h2,h3,h4,h5,h6,input,a, small{
     font-family: 'Poppins', sans-serif;
 }
 
@@ -324,4 +324,153 @@ team Section Css
 }
 .team ul li a i:hover{
     color: #00bec9;
+}
+/*******************************
+count-down Section Css 
+*********************************/
+.count-down{
+    width: 100%;
+    background-image: url('../imgs/counter_banner.png');
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.count-down .shadow{
+    position: absolute;
+    top: 0;
+    right: 0px;
+    bottom: 0;
+    left:0;
+    background-color: rgb(252, 195, 2, 0.7);
+}
+.shadow .count{
+    text-align: center;
+    margin-top: 210px;
+}
+.shadow .count p{
+    font-size: 37px;
+    color: rgb(255, 255, 255);
+    padding: 20px 0px 0px 0px;
+}
+.shadow .count h4{
+    font-size: 27px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+}
+/*******************************
+blog Section Css 
+*********************************/
+.blog{
+    width: 100%;
+    padding: 80px 0px;
+    
+}
+.blog h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    padding: 30px 0px 0px 0px;
+    text-align: center;
+}
+.blog p{
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    padding: 20px 0px;
+    text-align: center;
+}
+.blog .post{
+    width: 100%;
+}
+.blog .card{
+    width: 25rem!important;
+    margin: 0px !important;
+}
+.blog .card:hover{
+    border: none;
+    box-shadow: 1px 3px 14px -7.25px;
+}
+.blog .card small{
+    color: #00bec9;
+    text-transform: uppercase;
+}
+.blog .card p{
+    text-align: left !important;
+    font-size: 22px!important;
+}
+.blog .post .card-title{
+    font-size: 36px !important;
+}
+.blog .card a{
+    color:#00bec9;
+} 
+/*******************************
+footer Section Css 
+*********************************/
+footer{
+    width: 100%;
+    background: #343434;
+    padding: 80px 0px;
+}
+footer h4{
+    font-size: 35px;
+    color: white;
+    font-weight: bold;
+}
+footer p{
+    font-size: 20px;
+    color: white;
+}
+
+footer ul{
+    width: 100%;
+    padding-inline-start: 0px !important;
+    
+}
+footer ul li{
+    list-style: none;
+    padding-top: 8px ; 
+
+}
+footer a{
+    font-size: 20px;
+    color: white;
+    text-align: left;
+       
+}
+footer a:hover{
+    color: #00bec9;
+}
+footer .contact{
+    text-align: right;
+}
+footer .input-group i{
+    color: white;
+}
+footer .form-control {
+    padding: .80rem .75rem !important;
+    color: #ffffff !important;
+    background-color: #fcc302 !important;
+    border: 0px solid #fcc302 !important;
+    border-radius: 0px !important;
+    margin-left: 100px;
+}
+
+footer .contact ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 20px;
+}
+footer .contact ul li a i{
+    color: #343434;
+    background-color: white;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 40px;
+}
+footer .contact ul li a i:hover{
+    color: #fcc302;
 }
