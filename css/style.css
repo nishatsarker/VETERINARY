@@ -1,0 +1,327 @@
+/*******************************
+ Universal Css 
+ *********************************/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+p,span,h1,h2,h3,h4,h5,h6,input,a{
+    font-family: 'Poppins', sans-serif;
+}
+
+/*******************************
+header Section Css 
+*********************************/
+header{
+    position:absolute;
+    width: 100%;
+    background: rgba(0,0,0,0.10);
+}
+.nav-item{
+    font-size: 24px;
+    padding: 0px 30px;
+}
+.nav-item .nav-link:hover{
+    color: #00bec9 !important;
+}
+.form-control {
+    padding: .80rem .75rem !important;
+    color: #ffffff !important;
+    background-color: #fcc302 !important;
+    border: 1px solid #fcc302 !important;
+    border-radius: 0px !important;
+}
+.form-control::placeholder{
+    color: white;
+}
+.input-group-text {
+    padding: .375rem 1rem !important;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #00bec9 !important;
+    border: 1px solid #00bec9 !important;
+    border-radius: none !important;
+    margin-left: -2px !important;
+}
+.input-group-text a{
+    color: white;
+}
+/*******************************
+Banner Section Css 
+*********************************/
+.banner{
+    width: 100%;
+    background-color: #fcc302;
+    padding: 100px 0px;
+}
+.banner .banner-detail h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 66.67px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    padding: 70px 0px 0px 0px;
+}
+.banner p{
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    padding: 20px 0px;
+}
+.button-group .btn-primary{
+    background-color: #00bec9;
+    border-color: #00bec9 !important;
+}
+
+/*******************************
+service-1 Section Css 
+*********************************/
+.service-1{
+    width: 100%;
+    padding: 110px 0px;
+}
+
+.service-1 h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    padding: 70px 0px 0px 0px;
+}
+.service-1 p{
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    padding: 20px 0px;
+}
+.service-1 .btn-danger{
+    background-color:#fcc302 !important;
+    border-color: #fcc302 !important;
+}
+.service-1 .video-img{
+    position: relative;
+}
+.service-1 .video-img .shadow{
+    position: absolute;
+    top: 0;
+    right: 20px;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(252, 195, 2, 0.4);
+}
+.service-1 .box{
+    height: 200px;
+    padding: 200px;
+    position: absolute;
+    bottom: -30px;
+    left: -30px;
+    background: #fcc302;
+    z-index: -1;
+}
+.service-1 .video-icon i{
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    background-color: rgb(255, 255, 255);
+    color: #fcc302;
+    line-height: 70px;
+    text-align: center;
+    border-radius: 100%;
+    left: 40%;
+    top: 40%;
+}
+
+/*******************************
+service-2 Section Css 
+*********************************/
+.service-2{
+    width: 100%;
+    background: #fcc302;
+    text-align: center;
+    padding-bottom: 70px;
+}
+.service-2 h1{
+    font-size: 50px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    padding: 70px 0px 0px 0px;
+}
+.service-2 p{
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    padding: 20px 0px;
+}
+.service-2 .details{
+    padding: 0px 334px;
+}
+.service-2 .service{
+    padding-top:40px;
+}
+.service-2 .service h2{
+    font-size: 38px;
+    font-weight: 600;
+    padding: 35px 0px 5px 0px;
+    color: rgb(255, 255, 255) !important;
+}
+.service-2 .service p{
+    font-size: 20px;
+    font-weight: 200;
+    padding: 0 40px;
+}
+/*******************************
+service-3 Section Css 
+*********************************/
+.service-3{
+    width: 100%;
+    padding: 110px 0px;
+    text-align: right;
+}
+.service-3 h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    padding: 70px 0px 0px 0px;
+}
+.service-3 p{
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    padding: 20px 0px;
+}
+.service-3 .btn-danger{
+    background-color:#fcc302 !important;
+    border-color: #fcc302 !important;
+}
+.service-3 .video-img{
+    position: relative;
+}
+.shadow{
+    position: absolute;
+    top: 0;
+    right: 0px;
+    bottom: 0;
+    left:20px;
+    background-color: rgb(252, 195, 2, 0.4);
+}
+.service-3 .box{
+    height: 200px;
+    padding: 200px;
+    position: absolute;
+    bottom: -30px;
+    right: -30px;
+    background: #fcc302;
+    z-index: -1;
+}
+.service-3 .video-icon i{
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    background-color: rgb(255, 255, 255);
+    color: #fcc302;
+    line-height: 70px;
+    text-align: center;
+    border-radius: 100%;
+    left: 40%;
+    top: 40%;
+}
+/*******************************
+store Section Css 
+*********************************/
+.store{
+    width: 100%;
+    background: #fcc302;
+    text-align: center;
+    padding-bottom: 70px;
+}
+.store h1{
+    font-size: 50px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    padding: 70px 0px 0px 0px;
+}
+.store p{
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    padding: 20px 0px;
+}
+.store .details{
+    padding: 0px 334px;
+}
+.store .store-item{
+    padding-top:40px;
+}
+.store .store-item p{
+    font-size: 38px;
+    font-weight: 600;
+}
+.store .store-item p del{
+    padding: 0px 20px;
+}
+.store .store-item .btn-primary{
+    background-color: #00bec9;
+    border-color: #00bec9 !important;
+    border-radius: 50px;
+    padding: 0px 20px 5px 20px !important;
+}
+/*******************************
+team Section Css 
+*********************************/
+.team{
+    width: 100%;
+    text-align: center;
+    padding-bottom: 70px;
+}
+.team h1{
+    font-size: 50px;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    padding: 70px 0px 0px 0px;
+}
+.team p{
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    padding: 20px 0px;
+}
+.team .details{
+    padding: 0px 334px;
+}
+.team .service{
+    padding-top:40px;
+}
+.team .service h2{
+    font-size: 35px;
+    font-weight: 600;
+    padding: 35px 0px 5px 0px;
+    color: rgb(0, 0, 0) !important;
+}
+.team .service p{
+    font-size: 20px;
+    font-weight: 400;
+    padding: 0 40px;
+    text-transform: uppercase;
+}
+.team .service ul{
+    width: 100%;
+    padding: 5px;
+}
+.team ul li{
+    list-style: none;
+    display: inline-block;
+    padding-left: 10px;
+}
+.team ul li a i{
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    text-align: center;
+    background-color: #fcc302;
+    color: white;
+    border-radius: 100%;
+}
+.team ul li a i:hover{
+    color: #00bec9;
+}
